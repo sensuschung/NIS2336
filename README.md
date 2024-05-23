@@ -26,7 +26,7 @@ Assignment.
   - 若输出版本，则编译成功
 
 ## 遇到问题
-- 在`ninja`编译过程还是cmake过程（忘了）可能遇到undefined reference，此时在源文件中增加include path即可解决报错。（印象里某文件没include <limits>）
+- 在`ninja`编译过程还是cmake过程（忘了）可能遇到undefined reference，此时在源文件中增加include path即可解决报错。（印象里某文件没include \<limits\>）
 
 ## 参考
 <https://getting-started-with-llvm-core-libraries-zh-cn.readthedocs.io/zh-cn/latest/index.html>
