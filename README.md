@@ -33,4 +33,5 @@ Assignment.
 - 在`ninja`编译过程还是cmake过程（忘了）可能遇到undefined reference，此时在源文件中增加include path即可解决报错。（印象里某文件没include \<limits\>）
 
 ## 参考
-<https://getting-started-with-llvm-core-libraries-zh-cn.readthedocs.io/zh-cn/latest/index.html>
+总参考：<https://getting-started-with-llvm-core-libraries-zh-cn.readthedocs.io/zh-cn/latest/index.html>
+pass编写参考：<https://llvm.org/docs/ProgrammersManual.html>
