@@ -32,6 +32,10 @@ Assignment.
 ## 遇到问题
 - 在`ninja`编译过程还是cmake过程（忘了）可能遇到undefined reference，此时在源文件中增加include path即可解决报错。（印象里某文件没include \<limits\>）
 
+## llvm pass practice
+具体实现见report。
+注：testcase使用c实现，用C++实现时，C++编译器可能会优化函数名，例如clang可能会将test1aaa函数名称变为Z5test1aaaifi。
+
 ## 参考
 总参考：<https://getting-started-with-llvm-core-libraries-zh-cn.readthedocs.io/zh-cn/latest/index.html>
 pass编写参考：
