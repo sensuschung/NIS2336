@@ -34,4 +34,8 @@ Assignment.
 
 ## 参考
 总参考：<https://getting-started-with-llvm-core-libraries-zh-cn.readthedocs.io/zh-cn/latest/index.html>
-pass编写参考：<https://llvm.org/docs/ProgrammersManual.html>
+pass编写参考：
+- <https://llvm.org/docs/ProgrammersManual.html>
+- new pass manager
+  - <https://llvm.org/docs/NewPassManager.html>
+  - <https://github.com/alexjung/Writing-an-LLVM-Pass-using-the-new-PassManager>
